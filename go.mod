@@ -1,1 +1,1 @@
-module gomod
+module github.com/johndelavega/gomod
