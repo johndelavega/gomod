@@ -1,21 +1,14 @@
-//
-// https://github.com/golang/go/wiki/Modules
-//
-// A module is a collection of related Go packages that are versioned together as a single unit.
-//
+package mod2
 
-package gomod
+import (
+	"fmt"
 
-import "fmt"
+	"github.com/johndelavega/gomod"
+)
 
-const _version = "v0.0.3"
+var _version = gomod.Version()
 
-// Version exported
-func Version() string {
-	return _version
-}
-
-// Gomod use for testing replace and local modules/packages
+// Gomod used for testing replace and local modules/packages/libraries
 func Gomod() string {
 	fmt.Println(fmt.Sprintf("Gomod %s - main.go import anymod 'github.com/johndelavega/gomod'", _version))
 	fmt.Println(fmt.Sprintf("go.mod - replace github.com/johndelavega/gomod %s => ./anymod", _version))
