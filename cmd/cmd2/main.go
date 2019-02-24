@@ -1,3 +1,6 @@
+//
+// cmd/cmd2
+//
 package main
 
 import (

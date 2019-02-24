@@ -1,3 +1,6 @@
+//
+// cmd/gomod
+//
 package main
 
 import (
