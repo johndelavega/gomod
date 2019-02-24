@@ -1,0 +1,3 @@
+gomod v0.0.11 - added FuncTest()
+                added commit.txt
+                -
