@@ -14,3 +14,9 @@ func GomodLocal() string {
 	fmt.Println(fmt.Sprintf("local/GomodLocal() Version: %s, localVersion: %s", _version, _localVersion))
 	return fmt.Sprintf("local/GomodLocal() Version: %s, localVersion: %s", _version, _localVersion)
 }
+
+// Gomod test
+func Gomod() string {
+	return fmt.Sprintf("cmd/test/local/Gomod() Version %s, _localVersion %s", _version, _localVersion)
+
+}
