@@ -7,7 +7,7 @@ import (
 )
 
 var _version = gomod.Version()
-var _localVersion = "v0.0.1"
+var _localVersion = "v0.0.2"
 
 // GomodLocal used for testing replace and local modules/packages/libraries
 func GomodLocal() string {
