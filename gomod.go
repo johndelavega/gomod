@@ -8,7 +8,7 @@ package gomod
 
 import "fmt"
 
-const _version = "v0.0.3"
+const _version = "v0.0.4"
 
 // Version exported
 func Version() string {
@@ -17,7 +17,7 @@ func Version() string {
 
 // Gomod use for testing replace and local modules/packages
 func Gomod() string {
-	fmt.Println(fmt.Sprintf("Gomod %s - main.go import anymod 'github.com/johndelavega/gomod'", _version))
-	fmt.Println(fmt.Sprintf("go.mod - replace github.com/johndelavega/gomod %s => ./anymod", _version))
-	return fmt.Sprintf("Gomod %s - main.go import anymod 'github.com/johndelavega/gomod'", _version)
+	fmt.Println(fmt.Sprintf("1 Gomod %s - main.go import anymod 'github.com/johndelavega/gomod'", _version))
+	fmt.Println(fmt.Sprintf("2 go.mod - replace github.com/johndelavega/gomod %s => ./anymod4", _version))
+	return fmt.Sprintf("3 Gomod %s - main.go import anymod4 'github.com/johndelavega/gomod'", _version)
 }
