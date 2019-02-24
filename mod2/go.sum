@@ -1,2 +1,5 @@
 github.com/johndelavega/gomod v0.0.3 h1:NRyUny8UzhC4W4YzLq1uYnP502Q1XTp7tfSRrUeZ10I=
 github.com/johndelavega/gomod v0.0.3/go.mod h1:EAaN5WyPeAtXOHXGMKzEqVGK7e9+47nwbxgPvV0gBT4=
+github.com/johndelavega/gomod v0.0.4 h1:/XAtj+CZw82BHWf90RhEpURFWg6cIy+NWACyzoA4uGc=
+github.com/johndelavega/gomod v0.0.4/go.mod h1:zJxWLQNaEHTsUHMnnDM714IzM9A3RbZl4I/i1Y9uzC8=
+github.com/johndelavega/gomod/mod2 v0.0.0-20190223163819-50d016fcdd35/go.mod h1:RMVSMpMyzZA1zfhnctcz1TGFmLPZCI67ff/RKcM3Kl8=

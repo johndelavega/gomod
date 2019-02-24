@@ -12,5 +12,5 @@ var _version = gomod.Version()
 func main() {
 	fmt.Println(fmt.Sprintf("gomod/gomod/main.go %s\n", _version))
 	fmt.Println(fmt.Sprintf("gomod.Gomod(): %s\n", gomod.Gomod()))
-	fmt.Println(fmt.Sprintf("mod2.Gomod(): %s\n", mod2.Gomod()))
+	fmt.Println(fmt.Sprintf("mod2.Gomod(): %s\n", mod2.Gomod2()))
 }

@@ -8,7 +8,7 @@ package gomod
 
 import "fmt"
 
-const _version = "v0.0.4"
+const _version = "v0.0.5"
 
 // Version exported
 func Version() string {
