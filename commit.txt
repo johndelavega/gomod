@@ -1,6 +1,4 @@
-gomod v0.0.12 - updated gomod/cmd/test/go.mod
-                 replace github.com/johndelavega/gomod/mod2 v0.0.0 => ../../
-                 ../../ points to local primary package gomod
-                also tested ok: 
-                 replace github.com/johndelavega/gomod/mod2 v0.0.0 => ../../mod2
+gomod v0.0.13 - created examples folder
+                 moved cmd/test and cmd/cmd2 to examples
+                 only 1 command in cmd, gomod
                 -
