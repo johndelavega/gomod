@@ -1,4 +1,2 @@
-gomod v0.0.13 - created examples folder
-                 moved cmd/test and cmd/cmd2 to examples
-                 only 1 command in cmd, gomod
+gomod v0.0.14 - renamed cmd/test to cmd/testreplace
                 -

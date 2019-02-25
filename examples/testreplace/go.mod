@@ -1,4 +1,4 @@
-module test
+module testreplace
 
 // automatically added
 // require:

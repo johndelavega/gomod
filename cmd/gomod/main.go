@@ -1,6 +1,10 @@
 //
 // cmd/gomod
 //
+// cd to project folder gomod
+// go run ./cmd/gomod
+//
+
 package main
 
 import (

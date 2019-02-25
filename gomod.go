@@ -8,7 +8,7 @@ package gomod
 
 import "fmt"
 
-const _moduleVersion = "v0.0.13" // primary project version
+const _moduleVersion = "v0.0.14" // primary project version
 
 // todo:update name to packageVersion?
 const _internalVersion = "v0.0.1" // update only when changes occurs in this package, except _moduleVersion
